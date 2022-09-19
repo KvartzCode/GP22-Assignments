@@ -152,7 +152,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &495305857
 GameObject:
@@ -183,7 +183,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -282,12 +282,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dbd7c506614274499dd60520e34ba3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curves: 5
+  curves: 15
   start: {fileID: 188323124}
   middle: {fileID: 843695931}
   end: {fileID: 495305858}
   startX: 9.337861
   startY: 5
+  color1: {r: 1, g: 0, b: 0, a: 0}
+  color2: {r: 0, g: 1, b: 0, a: 0}
+  color3: {r: 0, g: 0, b: 1, a: 0}
 --- !u!1 &843695930
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,5 +320,5 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
