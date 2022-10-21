@@ -15,7 +15,7 @@ public class WalkerTest : ProcessingLite.GP22
     {
         Background(0);
 
-        DrawSpawnArea(Width / 4, Width - (Width / 4), Height / 4, Height - (Height / 4));
+        //DrawSpawnArea(Width / 4, Width - (Width / 4), Height / 4, Height - (Height / 4));
 
         Application.targetFrameRate = targetFrameRate;
         QualitySettings.vSyncCount = 0;
