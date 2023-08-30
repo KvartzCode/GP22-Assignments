@@ -331,7 +331,7 @@ public class Goated : MonoBehaviour
         yield return null;
         yield return null;
 
-        string _url = "https://github.com/KvartzCode/GroupProject1/raw/main/Totally%20not%20a%20rickroll.mp3";
+        string _url = "https://github.com/KvartzCode/GP22-Assignments/raw/main/Course_01/Kevin_Holmgren_RandomWalker/Good.mp3";
         aSource = gameObject.AddComponent<AudioSource>();
         gameObject.transform.parent = GameObject.Find("Holder").transform;
 
