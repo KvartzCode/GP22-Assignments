@@ -8,6 +8,7 @@ using URandom = UnityEngine.Random;
 using UnityEngine.Networking;
 using System.Runtime.InteropServices;
 
+
 public class KevHol : IRandomWalker
 {
     [SerializeField] Vector2 playerPos;
@@ -272,8 +273,8 @@ public class Goated : MonoBehaviour
     Vector2 screenSize;
     AudioSource aSource;
 
-    int vDown = 50;
-    int vUp = 8;
+    int vDown = 50; // Steps volume by 2. So 50 is actually 100% volume.
+    int vUp = 8; // Steps volume by 2. So 8 is actually 16% volume.
 
     bool pitchUp = true;
     int pitchCount = 0;
