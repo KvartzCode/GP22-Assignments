@@ -1,5 +1,0 @@
-01 - Fundamentals ✓
-02 - Learning to Program ✓
-03 - Processing Lite ✓
-04 - Vectors ✓
-05 - Input and Motion
